@@ -32,7 +32,15 @@
 </head>
 
 <body>
-
+    
+    <!--HEADER-->
+    <header class="hero">
+        <div class="hero-conteudo"> 
+            <h1 class="hero-titulo"> Bem-vindo á Minha Página </h1> 
+            <p class="hero-subtitulo"> Design bonito,funciona/ e com modo escuro de verdade </p> 
+        </div>
+    </header>
+        
     <!-- NAVBAR -->
     <nav class="navbar">
 
@@ -41,40 +49,66 @@
         </div>
 
         <ul class="menu">
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="componentes/sobre.html">Sobre</a></li>
+            <li><a href="componentes/história.html">História</a></li>
+            <li><a href="componentes/contato.html">Contato</a></li>
         </ul>
-
+        <div class="navbar-acoes">
+            
+            <a href="componentes/cadastra.html/" class="botao-cadastre-se <a>
+                
         <button id="botaoTema">
             🌙 Modo escuro
         </button>
+                
+        </div>
 
     </nav>
 
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
+        <h2-class="titulo-secavo"> Minha página <spam class="badge"> ** Novo </span>    
+            <p>
+             Esta página possui moddo claro e escuro 
+            </p>
+            <!--TAGS-->
+            <div class="tags"> 
+                <Span class="tag"> #HTML </span>span> 
+                <Span class="tag"> #CSS </span>
+                <Span class="tag"> #JavaScript </span>
+                <Span class="tag tag-destaque"> #ModoEscuro </span>
+                <Span class="tag"> #Responsivo</span>
+                <Span class="tag"> #FeitoComCafé </span>
+            </div> 
+            
+<!-- CARDS DE RECURSOS -->
 
-        <h1>Minha página</h1>
+<section class="cards">
+    <div class="card">
+        <div class="card-icone">⚡️</div>
+        <h3>Rápido</h3>
+        <p>Carregamento leve, sem enrolação. Só o essencial
+        do jeito que tem que ser.</p>
+    </div>
 
-        <p>
-            Esta página possui modo claro e
-            modo escuro.
-        </p>
+    <div class="card card-destaque">
+        <div class="card-selo">Favorito</div>
+        <div class="card-icone">🌒</div>
+        <h3>Modo escuro</h3>
+        <p>Alterne entre claro e escuro com um clique e descanse
+        os olhos à noite.</p>
+    </div>
+    <div class="card">
+    <div class="card-icone">□</div>
+    <h3>Responsivo</h3>
+    <p>Funciona bem em qualquer tamanho de tela, do celular ao monitor ultrawide.</p>
+</div>
 
-        <button id="botaoMensagem">
-            Alterar texto
-        </button>
-
-        <p id="mensagem">
-            Texto original
-        </p>
-
-    </main>
-
+</section>
     <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 
 </body>
+    
 </html>
